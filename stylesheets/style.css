@@ -1,0 +1,297 @@
+::selection {
+  color: black;
+  background-color: #fccad9;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Logo {
+  width: 100px;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.enlaces-menu {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.enlaces-menu:hover {
+  color: #e62a61;
+}
+
+header {
+  text-align: center;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+
+.bienvenida {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 0;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+.hablamos {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #e62a61;
+}
+
+.hablamos:hover {
+  color: #000;
+}
+
+.proyect {
+  padding: 0 150px 150px;
+}
+
+.proyect img {
+  width: 100%;
+}
+
+.proyect p {
+  font-size: 16px;
+}
+
+img + img {
+  margin-top: 40px;
+}
+
+.proyect2 {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: top;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.nombre-proyecto {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.datos-proyecto {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.resumen-proyecto {
+  width: 500px;
+}
+
+.sobre-mi {
+  background-color: #f7f7f7;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top center;
+  flex-direction: column;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+}
+
+.one-one {
+  display: none;
+}
+
+.sobre-mi a {
+  text-decoration: none;
+}
+
+.texto-sobre-mi {
+  margin-left: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pie-de-foto {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.pie-de-foto a {
+  color: #000;
+}
+
+.pie-de-foto a:hover {
+  color: #e62a61;
+}
+
+.hablemos {
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #e62a61;
+}
+
+.hablemos:hover {
+  color: #000;
+}
+
+.enlaces {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e62a61;
+  margin-top: 40px;
+}
+
+.enlaces:hover {
+  color: #000;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 20px 150px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 200;
+  border-top: 1px solid black;
+}
+
+.footer p:first-child {
+  font-weight: 700;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  color: #e62a61;
+}
+
+.listas {
+  display: inline-block;
+}
+
+.footer li + li {
+  margin-left: 20px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .proyect {
+    padding: 0px 20px 250px;
+  }
+  .proyect2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: top;
+  }
+  .nombre-proyecto {
+    max-width: 400px;
+  }
+
+  .datos-proyecto {
+    margin: 0px;
+    max-width: 400px;
+  }
+
+  .resumen-proyecto {
+    max-width: 400px;
+  }
+
+  .sobre-mi {
+    background-color: #f7f7f7;
+    padding: 100px 20px;
+    display: flex;
+    align-items: top center;
+    flex-direction: column;
+  }
+
+  .one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .one img {
+    max-width: 400px;
+    margin: 30px 0px;
+  }
+
+  .one h2 {
+    display: inline;
+  }
+
+  .texto-sobre-mi {
+    margin: 0px;
+    max-width: 400px;
+  }
+
+  .texto-sobre-mi h2 {
+    display: none;
+  }
+
+  .pie-de-foto {
+    display: none;
+  }
+
+  .footer {
+    padding: 20px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
